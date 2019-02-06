@@ -1,0 +1,26 @@
+// Main
+$Background: #00355d;
+
+// Title
+$TitleFontSize: 18px;
+
+// Operation
+$OperationFontSize: 37px;
+
+.OperationMainContainer{
+  background-color: $Background;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 65px;
+}
+
+.TitleContainer{
+  font-size: $TitleFontSize;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.OperationContainer{
+  font-weight: bold;
+  font-size: $OperationFontSize;
+}

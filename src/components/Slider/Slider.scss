@@ -1,0 +1,43 @@
+// Input 
+$inputWidth: 148px;
+$inputHeight: 32px;
+$inputFontSize: 21px;
+
+// Title
+$TitleFontSize: 17px;
+
+.SliderMainContainer{
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-bottom: 30px;
+}
+
+.SliderContainer{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.SliderInput{
+  background: transparent;
+  border: 1px solid white;
+  text-align: center;
+  width: $inputWidth;
+  height: $inputHeight;
+  font-size: $inputFontSize;
+  font-weight: bold;
+}
+
+.TitleContainer{
+  font-size: $TitleFontSize;
+  text-transform: uppercase;
+}
+
+.FirstLineContainer, .ThirdLineContainer{
+  margin-bottom: 20px;
+}
+
+.MinValue, .MaxValue{
+  min-width: 59px;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+// Contenedores Principales
+$BackgroundGradient1: #084f85;
+$BackgroundGradient2: #003b67;
+$Background2: #003b67;
+$ContainterWidth: 691px;
+$ContainterHeight: 714px;
+$SubContainerHorizontalMargin: 59px;
+$SubContainerHorizontalPadding: 44px;
+$SubContainerVerticalMargin: 62px;
+
+// Titulo
+$titleColor: white;
+$TitleFontSize: 28px;
+
+.MainContainer {
+    background-image: linear-gradient($BackgroundGradient1, $BackgroundGradient2);
+    width: $ContainterWidth;
+    height: $ContainterHeight;
+}
+
+.SubContainer {
+    background-color: $Background2;
+    width: $ContainterWidth - 2 * $SubContainerHorizontalMargin - 2 * $SubContainerHorizontalPadding;
+    height: $ContainterHeight - 2 * $SubContainerVerticalMargin;
+    padding-right: $SubContainerHorizontalPadding;
+    padding-left: $SubContainerHorizontalPadding;
+}
+
+h3.title {
+    color: $titleColor;
+    font-weight: bold;
+    font-size: $TitleFontSize;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.ChildrenContainer {
+    width: 100%;
+}

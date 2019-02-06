@@ -1,0 +1,35 @@
+$BottomHeight: 58px;
+
+// Credit Button
+$CreditButtonbackground: #17aa8d;
+$CreditButtonFontSize: 21px;
+
+// Detail Button
+$DetailButtonWidth: 150px;
+$DetailButtonbackground: #0b548b;
+$DetailButtonFontSize: 15px;
+
+.MainContainer{
+    height: $BottomHeight;
+}
+
+.button{
+    height: 100%;
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.CreditButton{
+    margin-right: 10px;
+    background-color: $CreditButtonbackground;
+    font-size: $CreditButtonFontSize;
+}
+
+.DetailButton{
+    width: $DetailButtonWidth;
+    background-color: $DetailButtonbackground;
+    font-size: $DetailButtonFontSize;
+    white-space: normal;
+}
